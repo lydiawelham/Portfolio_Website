@@ -1,0 +1,159 @@
+body{
+  background-color:#121212;
+  font-family: "Helvetica Neue", sans-serif;
+  color: white;
+  width: 100vw;
+}
+
+.link {
+  text-decoration: none !important;
+  color: #f65858;
+}
+
+.App-link {
+  color: #fff;
+  padding: 2vw;
+}
+
+.header{
+  width: 100%;
+  max-height: 15vh;
+  padding-top: 1vh;
+  position: sticky;
+  position: -webkit-sticky;
+  display: grid;
+  grid-template-columns: 80vw 20vw;
+  align-content: center;
+  top:0;
+  background-color: transparent;
+}
+
+.name-text {
+  color: #f65858;
+  font-size: 10vw;
+  text-align: left;
+  position: relative;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 15vh;
+  color: #fff;
+}
+
+.img-container {
+  position: relative;
+  height: 85vh;
+  text-align: center;
+  z-index: -1;
+}
+
+.rotated-text {
+  color: #f65858;
+  font-size: 5.4vw;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 1vmin;
+  right: 1vmin;
+  margin-right: -20vw;
+  margin-top: 40vh;
+
+}
+
+.code-img {
+  width: 100%;
+  z-index: 99;
+  transition: 1500ms opacity ease-out;
+  position: absolute;
+}
+
+.code-img-faded {
+  width: 100%;
+  transition: 1500ms opacity ease-out;
+  opacity: 0;
+  position: absolute;
+}
+
+.profile-img {
+  width: 100vw;
+  height: 85vh;
+  padding: 0;
+  margin: 0;
+}
+
+/*media query - change size of picture in smaller browser - zoom dont squash*/
+
+.intro {
+  min-height: 50vh;
+  padding-top: 30vh;
+  padding-bottom: 15vh;
+  display: grid;
+  grid-template-columns: 40vw 60vw;
+}
+
+.intro-text {
+  text-align: center;
+  margin-right: 40vw;
+}
+
+.profile-img3 {
+  height: 30vh;
+  margin-left: 12vw;
+}
+
+.code-thin {
+  width: 100%;
+  margin-bottom: -2vh;
+}
+
+#projects {
+  min-height: 50vh;
+  color: #121212;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10vmin;
+}
+
+.project-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.project-card {
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #999999;
+  width: 40vw;
+  padding-bottom: 0.5vh;
+  margin: 6vmin 4vmin 3vmin 4vmin;
+}
+
+.project-img {
+  border-radius: 5px;
+  width: 100%;
+  height: 40vh;
+}
+
+.project-link {
+  text-decoration: none !important;
+  color: #121212;
+}
+
+
+#languages {
+  width: 100%;
+  min-height: 50vh;
+  text-align: center;
+  padding-top: 30vh;
+}
+
+svg {
+  width: 3vw;
+  height: 3vw;
+  padding: 0.5vw;
+}
