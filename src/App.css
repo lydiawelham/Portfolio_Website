@@ -130,7 +130,7 @@ body{
   box-shadow: 5px 5px 5px #999999;
   width: 40vw;
   padding-bottom: 0.5vh;
-  margin: 6vmin 4vmin 3vmin 4vmin;
+  margin: 4vmin 4vmin 3vmin 4vmin;
 }
 
 .project-img {
@@ -152,8 +152,25 @@ body{
   padding-top: 30vh;
 }
 
+#cards {
+  min-height: 50vh;
+  color: #121212;
+  background-color: #fff;
+  text-align: center;
+  padding: 10vmin;
+}
+
 svg {
   width: 3vw;
   height: 3vw;
   padding: 0.5vw;
+}
+
+.footer {
+  font-size: 1.5vmin;
+  color: #fff;
+  background-color: #121212;
+  min-height: 10vh;
+  padding: 5vh;
+  text-align: center;
 }

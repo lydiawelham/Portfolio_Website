@@ -6,32 +6,24 @@ import profileImg from'./profile-img.png'
 import profileImg3 from './profile-img3.png'
 import codeImg from './code-img.png'
 import {useState} from 'react'
-import codeThin from './code-thin.png'
+import codeThin1 from './code-thin1.png'
 import codeThin2 from './code-thin2.png'
+import codeThin3 from './code-thin3.png'
+import codeThin4 from './code-thin4.png'
+import Cards from './components/Cards'
  
 function App() {
+  /* OPENING IMAGE CURRENTLY REMOVED (see bottom of page)
   const [isFade, setFade] = useState(false);
 
   const fadeImage = () => {
     setFade(true);
-  }
-/*  var i = 0;
-  var txt = 'Web Developer'; The text 
-  var speed = 50; The speed/duration of the effect in milliseconds 
-  
-  function typeWriter() {
-    if (i < txt.length) {
-      document.getElementById("web-dev").innerHTML += txt.charAt(i);
-      i++;
-      setTimeout(typeWriter, speed);
-    }
   }*/
-  console.log(isFade);
 
   return (
     <div className="App">
 
-      <img className={isFade ? "code-img-faded" : "code-img"} src={codeImg} onMouseEnter={fadeImage} alt="lines of binary code in white"/>
+      
       <div className="header">
         <a className="link" href="#top"><h1 className="name-text">LYDIA WELHAM</h1></a>
         <div className="header-links">
@@ -56,43 +48,27 @@ function App() {
         </div>
         
       </div>
-      <img className="code-thin" src={codeThin} />
+      <img className="code-thin" src={codeThin1} />
     
       <Projects />
 
       <img className="code-thin" src={codeThin2} />
 
       <Languages />
+
+      <img className="code-thin" src={codeThin3} />
+
+      <Cards />
+
+      <img className="code-thin" src={codeThin4} />
     
+    <div className="footer">
+      <p>© Lydia Welham 2021</p>
+    </div>
     </div>
   );
 }
 
 export default App;
 
-/*
-<header className="App-header">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-        >
-          Learn React
-        </a>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-        >
-          Learn React
-        </a>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-        >
-          Learn React
-        </a>
-      </header>
-
-
-      <img className="profile-img" src={profileImg} alt="Lydia in boxing ring in black and white" />
-      <h2 className="rotated-text" id="web-dev">WEB DEVELOPER</h2>
-    */
+/*<img className={isFade ? "code-img-faded" : "code-img"} src={codeImg} onMouseEnter={fadeImage} alt="lines of binary code in white"/>*/
