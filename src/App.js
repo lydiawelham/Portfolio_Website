@@ -29,6 +29,7 @@ function App() {
         <div className="header-links">
           <a className="App-link" href="#projects"><h4>projects</h4></a>
           <a className="App-link" href="#languages"><h4>languages</h4></a>
+          <a className="App-link" href="#cards"><h4>about me</h4></a>
         </div>
       </div>
       <div className="img-container">
