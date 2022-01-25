@@ -5,6 +5,11 @@ body{
   width: 100vw;
 }
 
+.link {
+  text-decoration: none;
+  color: #5da0c6;
+}
+
 /* Nav bar */
 
 .header{
@@ -28,7 +33,8 @@ body{
 
 .top-link {
   text-decoration: none !important;
-  color: #f65858;
+  color: #ff98a8;
+  text-shadow: 0.07vmin 0.07vmin #014753;
 }
 
 .header-links {
@@ -46,6 +52,10 @@ body{
 
 svg {
   max-height: 5vmin;
+}
+
+h2 {
+  color: #014753;
 }
 
 /*
@@ -85,18 +95,22 @@ svg {
 
 
 .intro-text {
-  margin-left: 34vw;
+  margin-top: 10vmin;
+  text-align: center;
+  color: #014753;
+  font-weight: bold;
+  text-shadow: 0.2vmin 0.2vmin #0affeb;
 }
 
 
 #projects {
   min-height: 50vh;
-  color: #121212;
+  color: #014753;
   background-color: #fff;
   text-align: center;
   display: flex;
   flex-direction: column;
-  padding: 15vh 10vmin 15vh 10vmin;
+  padding: 15vh 10vmin 20vh 10vmin;
 }
 
 .project-cards {
@@ -129,32 +143,125 @@ svg {
 #languages {
   width: 100%;
   min-height: 50vh;
-  text-align: center;
-  padding-top: 30vh;
+  text-align: left;
+  background-color: #fff;
+  padding-bottom: 1vmin;
+  
 }
 
 .comp-lang {
-  background-color: pink;
-  min-height: 20vmin;
-  width: 100%;
+  background-color: #5da0c6;
+  min-height: 40vmin;
+  width: 60vw;
+  margin-bottom: 5vmin;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px #c9c8c8;
+  transition: width 1s;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .comp-lang-hover {
-  background-color: red;
+  background-color: #5da0c6;
   min-height: 40vmin;
-  width: 100%;
+  width: 95vw;
+  z-index: 999;
+  transition: width 1s;
+  margin-bottom: 5vmin;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px #c9c8c8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.software {
-  background-color: plum;
-  min-height: 20vmin;
-  width: 100%;
+.laptop {
+  min-width: 22vmin;
+  min-height: 22vmin;
+}
+
+.comp-list {
+  list-style: none;
+  font-weight: bold;
+}
+
+.comp-text {
+  font-size: 1vmin;
+  max-width: 25vmin;
+  opacity: 0;
+  transition: opacity 0s;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.comp-text-hover {
+  max-width: 40vmin;
+  text-align: left;
+  opacity: 1;
+  transition: opacity 2s;
+}
+
+li {
+  padding-top: 1vmin;
 }
 
 .human-lang {
-  background-color: purple;
+  background-color: #28729c;
+  min-height: 40vmin;
+  width: 60vw;
+  margin-left: auto; 
+  margin-right: 0;
+  border-radius: 5px;
+  box-shadow: -4px 4px 4px #c9c8c8;
+  transition: width 1s;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.human-lang-hover {
+  background-color: #28729c;
+  min-height: 40vmin;
+  width: 95vw;
+  z-index: 999;
+  margin-left: auto; 
+  margin-right: 0;
+  transition: width 1s;
+  border-radius: 5px;
+  box-shadow: -4px 4px 4px #c9c8c8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.world-langs {
+  min-width: 20vmin;
   min-height: 20vmin;
-  width: 100%;
+}
+
+.lang-list {
+  list-style: none;
+  font-weight: bold;
+}
+
+.lang-text {
+  font-size: 1vmin;
+  max-width: 10vmin;
+  opacity: 0;
+  transition: opacity 0s;
+  padding-right: -10vmin;
+}
+
+.lang-text-hover {
+  max-width: 50vmin;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 2s;
 }
 
 #cards {
@@ -171,10 +278,33 @@ svg {
   padding: 0.5vw;
 }
 
+.email {
+  background-color: #ffc5ce;
+  color: #014753;
+  text-align: center;
+  min-height: 10vh;
+  border-style: solid;
+  border-width: 1vmin 12vmin 1vmin 12vmin;
+  border-color: #fff;
+  padding: 5vh;
+}
+
+.email-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.email-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #5da0c6;
+}
+
 .footer {
   font-size: 1.5vmin;
-  color: #fff;
-  background-color: #121212;
+  background-color: #fff;
+  color: #121212;
   min-height: 10vh;
   padding: 5vh;
   text-align: center;

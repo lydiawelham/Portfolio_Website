@@ -7,15 +7,17 @@ const Text = () => {
         <div className="intro-text">
         <Typewriter
     
-         onInit={(typewriter)=> {
-    
+         onInit={(typewriter)=> { 
+           
+          
          typewriter
           
-         .typeString('<span style="color: #1AA7EC; font-weight: bold; font-size: 10vmin; padding-top: 35vmin;">HELLO YOU</span>')
-           
+         .typeString('<span style="font-size: 10vmin;">HELLO YOU</span>')
+       
          .pauseFor(1000)
          .deleteAll()
-         .typeString("<span style='color: #fff;'>i'm Lydia Welham<br/>a web developer and communicative design specialist</span>")
+         .changeDelay(100)
+         .typeString("<span style='font-size: 8vmin;'>i'm lydia welham<br/>a software developer & ux designer</span>")
          .start();
          }}
          />
