@@ -17,7 +17,7 @@ const Text = () => {
          .pauseFor(1000)
          .deleteAll()
          .changeDelay(100)
-         .typeString("<span style='font-size: 8vmin;'>i'm lydia welham<br/>a software developer & ux designer</span>")
+         .typeString("<span style='font-size: 8vmin;'>i'm lydia welham<br/>software developer + UX designer</span>")
          .start();
          }}
          />

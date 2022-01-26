@@ -22,7 +22,7 @@ const Languages = () => {
                     <li>C</li>
                     <li>Python</li>
                 </ul>
-                <p className={compHover ? "comp-text": "comp-text-hover"}>I create playful designs using HTML5, CSS3 and Javascript ES6. <br/><br/> I predominantly work with ReactJS and occassionally Vue. <br/><br/>On the backend, I work with tools suchs as NodeJS, Netlify, AstraDB and GraphQL.<br/><br/>For SCM, I use GitHub and Git.</p>
+                <p className={compHover ? "comp-text": "comp-text-hover"}>I create playful designs using HTML5, CSS3 and Javascript ES6. <br/><br/> I predominantly work with ReactJS and occassionally Vue. <br/><br/>On the backend, I work with tools such as NodeJS, Netlify, AstraDB and GraphQL.<br/><br/>For SCM, I use GitHub and Git.</p>
             </div>
             <div onMouseEnter={toggleHuman} onMouseLeave={toggleHuman} className={humanHover ? "human-lang": "human-lang-hover"}>
                 <p className={humanHover ? "lang-text": "lang-text-hover"}>A linguist by background, I have a natural flair for expressive and targeted language. <br/><br/>I have studied and honed communication through PR consultancy and my BA in French and Russian language and literature at the University of Oxford. </p>
