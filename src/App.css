@@ -113,6 +113,14 @@ h2 {
   font-weight: bold;
   color: #fff;
   text-shadow: 0.3vmin 0.3vmin rgba(93, 160, 198, 1);
+  margin-right: 5vmin;
+  margin-left: 5vmin;
+}
+
+@media only screen and (max-width: 900px) {
+  .intro-text {
+    margin-top: 25vmin;
+  }
 }
 
 
@@ -142,7 +150,7 @@ h2 {
 .project-card {
   border-radius: 5px;
   box-shadow: 5px 5px 5px #999999;
-  width: 40vw;
+  min-width: 40vw;
   padding-bottom: 0.5vh;
   margin: 4vmin 4vmin 3vmin 4vmin;
 }
@@ -203,6 +211,12 @@ h2 {
   padding: 0 7vmin 0 8vmin;
 }
 
+@media only screen and (max-width: 900px) {
+  .laptop {
+    display: none;
+  }
+}
+
 .comp-list {
   list-style: none;
   font-weight: bold;
@@ -215,6 +229,7 @@ h2 {
   transition: opacity 0s;
   padding-left: 0;
   padding-right: 0;
+  margin-right: 1vw;
 }
 
 .comp-text-hover {
@@ -264,6 +279,12 @@ li {
   min-height: 20vmin;
 }
 
+@media only screen and (max-width: 900px) {
+  .world-langs {
+    display: none;
+  }
+}
+
 .lang-list {
   list-style: none;
   font-weight: bold;
@@ -275,6 +296,7 @@ li {
   opacity: 0;
   transition: opacity 0s;
   padding-right: -10vmin;
+  margin-left: 1vw;
 }
 
 .lang-text-hover {
