@@ -12,12 +12,12 @@ const Text = () => {
           
          typewriter
           
-         .typeString('<span style="font-size: 10vmin;">HELLO YOU</span>')
+         .typeString('<span style="font-size: 10vmin;">Hello you</span>')
        
          .pauseFor(1000)
          .deleteAll()
          .changeDelay(100)
-         .typeString("<span style='font-size: 8vmin;'>i'm lydia welham<br/>software developer + UX designer</span>")
+         .typeString("<span style='font-size: 8vmin;'>I'm Lydia Welham<br/>Software developer & UX designer</span>")
          .start();
          }}
          />
