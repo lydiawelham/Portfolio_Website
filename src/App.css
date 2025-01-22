@@ -85,8 +85,7 @@ h2 {
 
 @media only screen and (max-width: 900px) {
   .intro {
-    min-height: 100vh;
-    object-fit: none;
+    min-height:70vh;
   }
 }
 
@@ -101,7 +100,7 @@ h2 {
   position: absolute;
   display: inline-block;
   overflow: hidden; 
-
+  object-fit: cover;
 }
 
 /*media query - change size of picture in smaller browser - zoom dont squash*/
@@ -132,6 +131,12 @@ h2 {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 900px) {
+  .project-cards {
+  flex-direction: column;
+  }
 }
 
 .project-card {
@@ -292,6 +297,7 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .value-card {
