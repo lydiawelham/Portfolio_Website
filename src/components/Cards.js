@@ -26,7 +26,6 @@ const Cards = () => {
                     <img className="value-icon" src={kind} alt=""/>
                     <h3>KIND</h3>
                 </div>
-            </div>
         </div>
     ) 
 }
