@@ -331,6 +331,13 @@ li {
   color: #fff;
   text-shadow: 0.1vmin 0.1vmin rgba(93, 160, 198, 1);
   background-color: rgba(93, 160, 198, 0.7);
+  margin: 2vmin;
+}
+
+@media only screen and (max-width: 900px) {
+  .value-card {
+    min-width: 20vmin;
+  }
 }
 
 .value-icon {
