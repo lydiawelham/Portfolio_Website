@@ -27,6 +27,12 @@ body{
 
 }
 
+@media only screen and (max-width: 900px) {
+  .header {
+    min-height: 15vmin;
+  }
+}
+
 .name-text {
   padding-left: 3vw;
 }
