@@ -5,7 +5,7 @@ const Projects = () => {
 
     return (
         <div id="projects">
-            <h2>my projects</h2>
+            <h2>My projects</h2>
             <p>a full list of my projects can be found on my <a className="link" href="https://github.com/lydiawelham" target="_blank" rel="noopener noreferrer"><strong>GitHub</strong></a></p>
             <div className="project-cards">
                 <a className="project-link" href="https://github.com/lydiawelham/Beer_Me_That_Episode" target="_blank" rel="noopener noreferrer"> 

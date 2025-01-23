@@ -23,9 +23,9 @@ function App() {
       
       <div id="email">
         <div className="email">
-          <h2>let's talk! </h2>
+          <h2>Let's talk! </h2>
           <div className="email-container">
-            <p>drop me an email at <a className="email-link" href="mailto:lydiaewelham@gmail.com">lydiaewelham@gmail.com</a></p>
+            <p>Drop me an email at <a className="email-link" href="mailto:lydiaewelham@gmail.com">lydiaewelham@gmail.com</a></p>
             <a href="mailto:lydiaewelham@gmail.com"><img className='email-icon' src={email} alt=""/></a>
           </div>
         </div>

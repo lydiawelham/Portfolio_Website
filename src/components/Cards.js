@@ -9,7 +9,7 @@ const Cards = () => {
     
     return (
         <div id="cards">
-            <h2>my values</h2>
+            <h2>My values</h2>
                 <div className="card-container">
                     <div className="value-card">
                         <img className="value-icon" src={intuitive} alt=""/>
